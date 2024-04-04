@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .email-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .google-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  .apple-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  
+  .or {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
